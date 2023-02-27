@@ -16,9 +16,9 @@ import BaseButton from "./BaseButton.vue";
                   event-name="call" />
 
       <div class="mt-24 relative">
-        <div class="z-0" v-for="item in items" :key="item.id">
+        <!-- <div class="z-0" v-for="item in items" :key="item.id">
           {{ item }}
-        </div>
+        </div> -->
         <div class="flex flex-row flex-wrap z-10">
           <img src="../assets/people1.png" class="mr-6 h-60"
                alt="Une personne" />
