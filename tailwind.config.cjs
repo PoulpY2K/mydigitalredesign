@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "background": "#F9FBFC",
         "lightBlue": "#29B7C5",
         "blueDark": "#07052F",
-        "neutralBlue": "#0F8793"
+        "neutralBlue": "#0F8793",
+        "deepBlue": "#181B3F"
       },
       fontFamily: {
         "anek": ["Anek Bangla", "sans-serif"]

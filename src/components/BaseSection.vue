@@ -6,7 +6,7 @@ const props = defineProps<{
 
 <template>
   <section :id="id"
-           class="container flex flex-col flex-wrap items-center">
+           class="flex flex-col flex-wrap items-center">
     <slot />
   </section>
 </template>

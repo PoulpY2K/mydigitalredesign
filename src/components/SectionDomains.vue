@@ -13,10 +13,10 @@ const circles: Array<ICircle> = populateCircles(3, 2);
 <template>
   <BaseSection id="domains" class="justify-center relative">
     <div class="flex flex-col items-center">
-      <h2 class="flex flex-col font-bold uppercase text-md text-lightBlue z-10">
+      <h2 class="flex flex-col font-bold uppercase text-md text-lightBlue z-10 bg-background">
         <span>Plusieurs spécialités</span>
       </h2>
-      <h1 class="flex flex-col mt-3 font-extrabold text-3xl text-blueDark z-10">
+      <h1 class="flex flex-col mt-3 font-extrabold text-3xl text-blueDark z-10 bg-background">
         <span>Les domaines les plus</span>
         <span>demandés dans le digital</span>
       </h1>
@@ -32,7 +32,7 @@ const circles: Array<ICircle> = populateCircles(3, 2);
                   class="z-10"
         />
       </div>
-      <BaseButton class="mt-14" id="download" event-name="download"
+      <BaseButton class="mt-14 z-10" id="download" event-name="download"
                   text="Télécharger le programme" />
     </div>
   </BaseSection>
