@@ -4,10 +4,8 @@ import SectionHero from "@/components/SectionHero.vue";
 import SectionCampus from "@/components/SectionCampus.vue";
 import SectionDomains from "@/components/SectionDomains.vue";
 import SectionBlog from "@/components/SectionBlog.vue";
-
-const options = {
-  licenseKey: "gplv3-license"
-};
+import SectionAlumni from "@/components/SectionAlumni.vue";
+import TheFooter from "@/components/TheFooter.vue";
 </script>
 
 <template>
@@ -21,6 +19,12 @@ const options = {
   </div>
   <div class="max-h-screen h-screen">
     <SectionBlog class="p-10 h-full" />
+  </div>
+  <div class="max-h-screen h-screen">
+    <SectionAlumni class="p-16 h-full" />
+  </div>
+  <div>
+    <TheFooter class="p-16" />
   </div>
 </template>
 
