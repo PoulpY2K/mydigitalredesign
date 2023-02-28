@@ -17,9 +17,6 @@ const imagesRelativePath = reactive<Array<string>>([
       <span>Des campus partout en France</span>
     </h2>
     <div class="flex flex-row justify-center items-center gap-7 mt-7">
-      <div v-for="item in items" :key="item.id">
-        {{ item }}
-      </div>
       <BaseImage v-for="path in imagesRelativePath" :src="path"
                  alt="Logo de ville" class="mr-6 h-10 w-32 object-contain" />
     </div>

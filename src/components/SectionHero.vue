@@ -1,30 +1,11 @@
 <script setup lang="ts">
 import BaseButton from "./BaseButton.vue";
-import { reactive } from "vue";
-import { ICircle } from "@/types/ICircle";
 import BaseSection from "@/components/BaseSection.vue";
 
-const getRandomArbitrary = (max: number, min: number) => {
-  return Math.floor(Math.random() * (max - min) + min);
-};
+import { ICircle } from "@/types/ICircle";
+import { populateCircles } from "@/utils";
 
-const circles = reactive<Array<ICircle>>([]);
-const colors = reactive<Array<string>>([
-  "bg-lightBlue",
-  "bg-neutral-800",
-  "bg-neutralBlue"
-]);
-
-for (let i = 0; i < Math.random() * (15 - 8) + 8; i++) {
-  circles.push({
-    size: getRandomArbitrary(16, 46),
-    color: colors[getRandomArbitrary(colors.length, 0)],
-    position: {
-      top: getRandomArbitrary(0, 100),
-      left: getRandomArbitrary(0, 100)
-    }
-  });
-}
+const circles: Array<ICircle> = populateCircles(15, 8);
 </script>
 
 <template>
