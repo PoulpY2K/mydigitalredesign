@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BaseButton from "./BaseButton.vue";
 import BaseSection from "@/components/BaseSection.vue";
+import BaseImage from "@/components/BaseImage.vue";
 
 import { ICircle } from "@/types/ICircle";
 import { populateCircles } from "@/utils";
@@ -24,13 +25,13 @@ const circles: Array<ICircle> = populateCircles(15, 8);
                 :style="'top: ' + circle.position.top + '%; left: ' + circle.position.left + '%; height: ' + circle.size + 'px; width: ' + circle.size + 'px'">
           </span>
       <div class="pt-16 flex flex-row flex-wrap relative z-10 justify-center">
-        <img src="../assets/people1.png" class="mr-6 h-60"
+        <BaseImage src="/assets/people1.png" class="mr-6 h-60"
              alt="Une personne" />
-        <img src="../assets/people2.png" class="mt-10 mr-6 h-60"
+        <BaseImage src="/assets/people2.png" class="mt-10 mr-6 h-60"
              alt="Une personne" />
-        <img src="../assets/people3.png" class="mt-10 mr-6 h-60"
+        <BaseImage src="/assets/people3.png" class="mt-10 mr-6 h-60"
              alt="Une personne" />
-        <img src="../assets/people4.png" class="mr-6 h-60"
+        <BaseImage src="/assets/people4.png" class="mr-6 h-60"
              alt="Une personne" />
       </div>
     </div>

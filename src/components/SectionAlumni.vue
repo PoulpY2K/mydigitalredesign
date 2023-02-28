@@ -15,10 +15,10 @@ import { alumnis } from "@/services/alumnis";
         <span>alumnis en pensent ?</span>
       </h1>
       <SectionAlumniNavButton id="left" event-name="navLeft"
-                              image-src="/src/assets/ButtonLeft.png"
+                              image-src="/assets/ButtonLeft.png"
                               class="mr-4" />
       <SectionAlumniNavButton id="right" event-name="navRight"
-                              image-src="/src/assets/ButtonRight.png" />
+                              image-src="/assets/ButtonRight.png" />
     </div>
     <div class="w-full flex flex-row mt-20 gap-8">
       <SectionAlumniCard v-for="alumni in alumnis" :key="alumni.id"

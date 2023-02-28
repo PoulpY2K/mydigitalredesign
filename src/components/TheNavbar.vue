@@ -14,7 +14,7 @@ const navbarLinks = reactive<Array<ILink>>(links);
     class="px-2 sm:p-8 p-16 rounded">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="https://mydigitalschool.com/" class="flex items-center">
-        <img src="../assets/mds.png" class="mr-3 h-9"
+        <img src="../../public/assets/mds.png" class="mr-3 h-9"
              alt="MyDigitalSchool Logo" />
       </a>
       <div class="flex order-2">

@@ -28,7 +28,7 @@ const circles: Array<ICircle> = populateCircles(3, 2);
       </span>
       <div class="flex flex-row mt-16 gap-8">
         <SectionDomainsCard v-for="domain in domains" :key="domain.id"
-                            :id="domain.id" logo="../assets/annonce.png"
+                            :id="domain.id" logo="/assets/annonce.png"
                             :title="domain.title"
                             :desc="domain.desc" :button-text="domain.buttonText"
                             :link="domain.link"
