@@ -3,4 +3,6 @@ export interface IDomain {
   title: string;
   desc: string;
   buttonText: string;
+
+  link: string;
 }

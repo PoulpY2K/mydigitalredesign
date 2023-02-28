@@ -6,8 +6,6 @@
     "moduleResolution": "Node",
     "strict": true,
     "jsx": "preserve",
-    "allowJs": true,
-    "checkJs": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
@@ -27,8 +25,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "src/**/*.js"
+    "src/**/*.vue"
   ],
   "references": [
     {

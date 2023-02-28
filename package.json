@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.45",
-    "vue-fullpage.js": "^0.2.12"
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
