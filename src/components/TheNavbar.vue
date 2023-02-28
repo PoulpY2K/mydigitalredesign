@@ -2,9 +2,9 @@
 import BaseLink from "./BaseLink.vue";
 import BaseButton from "./BaseButton.vue";
 
-import { ILink } from "../types/ILink";
+import { ILink } from "@/types/ILink";
 import { reactive } from "vue";
-import { links } from "../services/links";
+import { links } from "@/services/links";
 
 const navbarLinks = reactive<Array<ILink>>(links);
 </script>
