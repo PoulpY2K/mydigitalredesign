@@ -20,8 +20,8 @@ const props = withDefaults(defineProps<{
       <BaseImage :src="imageSrc" :id="id + '-img'" alt="Card image"
                  class="h-10 w-10 object-cover rounded mr-3" />
       <div class="flex flex-col">
-        <p class="font-semibold text-left text-sm">{{ name }}</p>
-        <p class="font-normal text-gray-400 text-left text-xs">{{ status }}</p>
+        <p class="font-semibold text-left text-md">{{ name }}</p>
+        <p class="font-normal text-gray-400 text-left text-sm">{{ status }}</p>
       </div>
     </div>
 

@@ -20,11 +20,9 @@ import TheFooter from "@/components/TheFooter.vue";
   <div class="max-h-screen h-screen">
     <SectionBlog class="p-10 h-full" />
   </div>
-  <div class="max-h-screen h-screen">
-    <SectionAlumni class="p-16 h-full" />
-  </div>
   <div>
-    <TheFooter class="p-16" />
+    <SectionAlumni class="p-16" />
+    <TheFooter />
   </div>
 </template>
 
